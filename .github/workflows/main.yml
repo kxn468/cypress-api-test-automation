@@ -13,4 +13,4 @@ jobs:
       - name: Run Regression tests
         uses: cypress-io/github-action@v2
         with:
-          wait-on: "https://dev-mosaic-aks.np-mosaic-aks.shwaks.com/swagger/index.html"
+          wait-on: "https://dev-mosaic-aks.np-mosaic-aks.shwaks.com"
