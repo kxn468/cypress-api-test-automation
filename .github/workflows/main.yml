@@ -11,6 +11,4 @@ jobs:
       - name: Install npm packages
         run: npm install
       - name: Run Regression tests
-        uses: cypress-io/github-action@v2
-        with:
-          wait-on: "https://dev-mosaic-aks.np-mosaic-aks.shwaks.com"
+        run: npm run cy:test
